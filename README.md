@@ -2,7 +2,7 @@
 
 **Tiered code narration for humans in an AI-first world.**
 
-DepthCheck is a Claude Skill that generates layered explanations of code changes at four expertise levels — making the same work understandable to everyone from stakeholders to senior engineers.
+depth-check is a Claude Skill that generates layered explanations of code changes at four expertise levels — making the same work understandable to everyone from stakeholders to senior engineers.
 
 > 🎥 **Built live on stream** — Follow the entire build process on [Twitch/Ktulue](https://twitch.tv/ktulue) during Software Saturdays.  
 > 🧪 **First Claude Skill** — This is my first custom skill for Claude, built from scratch and documented start to finish.
@@ -13,9 +13,9 @@ DepthCheck is a Claude Skill that generates layered explanations of code changes
 
 AI coding tools are optimized to *produce* code faster. Almost none of them are optimized to help humans *understand* code better. The few that offer explanations do it one-size-fits-all — a single level of detail regardless of who's reading.
 
-## What DepthCheck Does
+## What depth-check Does
 
-Given a code change (diff, commit, PR, or session summary), DepthCheck generates four tiers of explanation:
+Given a code change (diff, commit, PR, or session summary), depth-check generates four tiers of explanation:
 
 | Level | Audience | Example |
 |-------|----------|---------|
@@ -56,7 +56,7 @@ This project is being built live on [Twitch/Ktulue](https://twitch.tv/ktulue) as
 ## Project Structure
 
 ```
-depthcheck/
+depth-check/
 ├── SKILL.md          # The Claude Skill definition
 ├── README.md
 ├── LICENSE
@@ -70,13 +70,13 @@ depthcheck/
 
 Once the `SKILL.md` is complete, add the skill to your Claude environment and ask Claude to explain any code change:
 
-> "Run DepthCheck on this diff"  
+> "Run depth-check on this diff"  
 > "Give me a tiered summary of what we just built"  
 > "Explain this PR at all four levels"
 
 ## Market Context
 
-The AI coding tools market is projected to exceed $30B by 2032. Every major player (Cursor, Copilot, Devin, Sourcegraph) is focused on making AI produce code faster. Nobody is building the human-readable layer that helps different audiences understand the same work at their level. That's the gap. Full market analysis available in [`AI_Coding_Landscape_DepthCheck_Market_Map.md`](./AI_Coding_Landscape_DepthCheck_Market_Map.md).
+The AI coding tools market is projected to exceed $30B by 2032. Every major player (Cursor, Copilot, Devin, Sourcegraph) is focused on making AI produce code faster. Nobody is building the human-readable layer that helps different audiences understand the same work at their level. That's the gap. Full market analysis available in [`AI_Coding_Landscape_depth-check_Market_Map.md`](./AI_Coding_Landscape_depth-check_Market_Map.md).
 
 ## License
 

@@ -1,4 +1,4 @@
-# DepthCheck
+# depth-check
 
 **Tiered code narration for humans in an AI-first world.**
 

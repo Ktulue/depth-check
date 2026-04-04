@@ -27,3 +27,38 @@ Before generating narration, assess the scope of the code to calibrate narration
 - **Large** (multiple files, a subsystem, a full codebase overview) — full treatment at every tier. Mid and Senior include structured bullet points for files, patterns, trade-offs, and architectural concerns.
 
 Match narration depth to what is being explained. No rigid word counts. A trivial piece of code should not receive an architectural essay. A complex subsystem should not be reduced to a sentence.
+
+## Tier Definitions
+
+Always output all four tiers, in order. Each tier is a genuinely different perspective written for a different reader — not a shorter or longer summary of the same explanation. Use vocabulary and framing natural to each audience.
+
+### 🟢 Green — Stakeholders, PMs, Non-Technical
+
+- Plain language, zero jargon. If a non-technical person would need to look up a word, rephrase it.
+- Focus on *what the code does and why it matters* to the product or business.
+- Tone: clear, confident, conversational.
+- Example framing: "This is the part of the system that handles..." / "This lets users..."
+
+### 🔵 Junior — Early-Career Devs, Bootcamp Grads
+
+- Name the technologies, patterns, and components involved.
+- Explain *what the code does and how the pieces connect*.
+- Assume basic programming knowledge (variables, functions, classes) but not deep domain expertise.
+- Tone: approachable, educational. Treat the reader as capable but new.
+- Example framing: "This is a React component that..." / "This function takes X and returns Y by..."
+
+### 🟡 Mid — Working Developers
+
+- Describe implementation details, data flow, and design patterns.
+- Explain *how it works and why it was built this way*.
+- Include bullet points for files, services, and key decisions when the code's complexity warrants it.
+- Tone: peer-to-peer, practical. No hand-holding, no over-explaining.
+- Example framing: "Uses the repository pattern to..." / "Event-driven via pub/sub so that..."
+
+### 🔴 Senior — Architects & Tech Leads
+
+- Focus on system design, trade-offs, scaling implications, and architectural decisions.
+- Explain *what trade-offs were made and what the alternatives were*.
+- Include bullet points for architectural concerns, performance characteristics, and maintainability when warranted.
+- Tone: strategic, concise, opinionated. Assume deep technical expertise.
+- Example framing: "Chose eventual consistency over strong consistency to..." / "This decouples X from Y, enabling..."

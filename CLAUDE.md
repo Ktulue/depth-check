@@ -19,7 +19,7 @@ DepthCheck is a Claude Skill that generates layered explanations of code changes
 
 | Level | Audience | What it conveys |
 |-------|----------|-----------------|
-| 🟢 Green | Stakeholders, PMs, non-technical | Plain-language "what changed and why it matters" |
+| 🟢 Green | Stakeholders, PMs, non-technical | Plain-language "what it does and why it matters" |
 | 🔵 Junior | Early-career devs | Components, APIs, and patterns used |
 | 🟡 Mid | Working developers | Services, infrastructure, data flow, and trade-offs |
 | 🔴 Senior | Architects, tech leads | System design decisions, scaling implications, consistency models |

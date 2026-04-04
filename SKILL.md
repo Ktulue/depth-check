@@ -62,3 +62,34 @@ Always output all four tiers, in order. Each tier is a genuinely different persp
 - Include bullet points for architectural concerns, performance characteristics, and maintainability when warranted.
 - Tone: strategic, concise, opinionated. Assume deep technical expertise.
 - Example framing: "Chose eventual consistency over strong consistency to..." / "This decouples X from Y, enabling..."
+
+## Output Format
+
+Every invocation produces this structure:
+
+````
+## DepthCheck
+
+🟢 **Green** — Stakeholders
+[plain language paragraph]
+
+🔵 **Junior** — Early-Career Devs
+[approachable paragraph with tech names]
+
+🟡 **Mid** — Working Developers
+[implementation-focused paragraph]
+- key detail bullets when warranted
+
+🔴 **Senior** — Architects & Tech Leads
+[strategic paragraph on trade-offs and design]
+- architectural detail bullets when warranted
+````
+
+### Format Rules
+
+- Always start output with the `## DepthCheck` header.
+- Always output all four tiers in this exact order: Green, Junior, Mid, Senior.
+- Each tier line uses the emoji, bold label, and audience tag exactly as shown above.
+- Bullet points only appear at Mid and Senior tiers, and only when the code's complexity warrants them.
+- No tier may reference another tier's content. Each tier stands completely alone.
+- Use clean markdown only. No HTML tags, no collapsible blocks, no `<details>` elements. Output must render cleanly in a terminal.

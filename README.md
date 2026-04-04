@@ -4,7 +4,7 @@
 
 depthcheck is a Claude Skill that generates layered explanations of code changes at four expertise levels — making the same work understandable to everyone from stakeholders to senior engineers.
 
-> Built live on stream at [Twitch/Ktulue](https://twitch.tv/ktulue) during Software Saturdays.
+> Built live on stream at [Twitch/Ktulue](https://twitch.tv/ktulue) during Software Saturdays 04.04.26.
 
 ---
 

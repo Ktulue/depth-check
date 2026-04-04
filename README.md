@@ -1,8 +1,8 @@
-# depth-check
+# depthcheck
 
 **Tiered code narration for humans in an AI-first world.**
 
-depth-check is a Claude Skill that generates layered explanations of code changes at four expertise levels — making the same work understandable to everyone from stakeholders to senior engineers.
+depthcheck is a Claude Skill that generates layered explanations of code changes at four expertise levels — making the same work understandable to everyone from stakeholders to senior engineers.
 
 > 🎥 **Built live on stream** — Follow the entire build process on [Twitch/Ktulue](https://twitch.tv/ktulue) during Software Saturdays.  
 > 🧪 **First Claude Skill** — This is my first custom skill for Claude, built from scratch and documented start to finish.

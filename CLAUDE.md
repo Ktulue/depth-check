@@ -26,7 +26,7 @@ DepthCheck is a Claude Skill that generates layered explanations of code changes
 
 ## Project Conventions
 
-- Licensed under GPLv3.
+- Licensed under MIT.
 - Built live on stream ([Twitch/Ktulue](https://twitch.tv/ktulue)) during Software Saturdays.
 - Market analysis lives in `AI_Coding_Landscape_DepthCheck_Market_Map.md`.
 - No proprietary code or employer/client architecture may be referenced — personal/public repos only.

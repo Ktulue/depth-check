@@ -1,6 +1,11 @@
 ---
 name: depthcheck
 description: Tiered code narration — explains code at four expertise levels (Green/Junior/Mid/Senior) for different audiences. Use when asked to explain code, narrate at different levels, or run DepthCheck.
+user-invokable: true
+args:
+  - name: target
+    description: The code to explain — a file path, function name, pasted snippet, or general description (optional, will ask if not provided)
+    required: false
 ---
 
 # DepthCheck

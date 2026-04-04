@@ -17,3 +17,13 @@ When invoked, determine what code to narrate:
 2. **No target specified** — ask the user what code they'd like explained. Do not guess or default to anything.
 
 DepthCheck narrates code, not changes. Do not run git diff or analyze commits unless the user explicitly asks for that.
+
+## Significance Assessment
+
+Before generating narration, assess the scope of the code to calibrate narration depth:
+
+- **Small** (a single function, a config value, a few lines) — each tier gets a single concise sentence.
+- **Medium** (a file, a component, a class) — Green and Junior get a short paragraph. Mid and Senior get a paragraph with bullet points for technical details.
+- **Large** (multiple files, a subsystem, a full codebase overview) — full treatment at every tier. Mid and Senior include structured bullet points for files, patterns, trade-offs, and architectural concerns.
+
+Match narration depth to what is being explained. No rigid word counts. A trivial piece of code should not receive an architectural essay. A complex subsystem should not be reduced to a sentence.
